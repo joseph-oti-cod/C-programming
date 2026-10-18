@@ -18,8 +18,7 @@ int main() {
     printf("Enter the width of the window: ");
     scanf("%lf", &width);
 
-    // b) Use the built-in function pow() to calculate the square of length and width
-    // c) Use the built-in function sqrt() to calculate the diagonal of the window
+    
     diagonal = sqrt(pow(length, 2) + pow(width, 2));
 
     // d) Display the length, width, and calculated diagonal to two decimal places
