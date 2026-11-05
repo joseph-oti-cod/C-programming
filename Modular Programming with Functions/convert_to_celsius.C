@@ -20,7 +20,7 @@ int main() {
     }
     
     float celsius = convertToCelsius(fahrenheit);
-    printf("Temperature in Celsius: %.2f °C\n", celsius);
+    printf("Temperature in Celsius: %.2f Â°C\n", celsius);
     return 0;
 }
 
