@@ -24,7 +24,7 @@ int main() {
 }
 
 void writeEmployee() {
-    FILE *file = fopen(FILENAME, "w");
+    FILE *file = fopen("C:\\Users\\xadaj\\Desktop\\New folder (2)\\sample.txt", "w");
     if (file == NULL) {
         printf("Error opening file for writing!\n");
         return;
